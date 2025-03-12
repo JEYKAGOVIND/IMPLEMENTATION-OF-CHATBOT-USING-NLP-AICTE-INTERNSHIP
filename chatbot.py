@@ -14,8 +14,7 @@ nltk.data.path.append(os.path.abspath("nltk_data"))
 nltk.download('punkt')
 
 # Load intents from the JSON file
-file_path = os.path.abspath( r"C:\Users\jeyka\IBM\.ipynb_checkpoints\updated_intents.json"
-)
+file_path = os.path.abspath(r"C:\Users\jeyka\IBM\merged_intents.json")
 with open(file_path, "r") as file:
     intents = json.load(file)
 
@@ -112,4 +111,3 @@ def main():
         
 if __name__ == '__main__':
     main()
-
